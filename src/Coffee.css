@@ -78,6 +78,20 @@ body{
   margin: 20px 2px 2px 6px;
   border-radius: 12px;
 }
+
+/* input box size increase */
+#item-box input{
+  margin-top: 4px;
+  width:30px;
+  height: 20px;
+}
+.Item-name-select-btn{
+ display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  
+}
+
 .billing{
   position: fixed;
   background-color: rgb(201 183 183);

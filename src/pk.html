@@ -2,43 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mixed Coffee Color Text</title>
-  <style>
-    body {
-      background-color: #fff8f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Arial', sans-serif;
-    }
-
-    .coffee-text {
-      font-size: 80px;
-      font-weight: bold;
-      background: linear-gradient(
-        -45deg,
-        #4b2e2e,  /* dark coffee */
-        #a67b5b,  /* milk coffee */
-        #d2b48c,  /* light coffee */
-        #4b2e2e
-      );
-      background-size: 300% 300%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: mixCoffee 5s ease infinite;
-    }
-
-    @keyframes mixCoffee {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
+  <div class="item">
+    <h1 >prince</h1>
+    <h2>pr</h2>
+    <h3>pryadav</h3>
+  </div>
 
-  <div class="coffee-text">coffee</div>
-
+  <p id="paragraph"></p>
 </body>
+
+<script>
+
+ const para = document.querySelector('.item'); 
+  const a=document.getElementById('paragraph')
+
+const h1 = para.querySelector('h1').textContent;
+    const h2 = para.querySelector('h2');
+    const h3 = para.querySelector('h3');
+
+    // console.log(h1.textContent)
+    a.innerText=h1
+</script>
 </html>
